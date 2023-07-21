@@ -1,0 +1,19 @@
+#include<iostream>
+#include<algorithm>
+using namespace std;
+int main()
+{     
+string s;     
+cin>>s;     
+int x,y;    
+ x=count(s.begin(),s.end(),'z');    
+ y=count(s.begin(),s.end(),'o');     
+if(2*x==y)     
+{
+   cout<<"Yes";
+}
+else
+{
+    cout<<"No";
+}
+}
